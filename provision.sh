@@ -44,3 +44,14 @@ node -v
 
 
 #token sonarqube gerado 30dias sqp_7ffe073ba38ec425d0146c345117046d14a59295
+
+
+
+#sqp_b58fe1f0bb07e7e07e6917bc85f92b6fa34422b7
+
+
+#sonar-scanner \
+#  -Dsonar.projectKey=node-app \
+#  -Dsonar.sources=. \
+#  -Dsonar.host.url=http://localhost:9000 \
+#  -Dsonar.token=sqp_b58fe1f0bb07e7e07e6917bc85f92b6fa34422b7
